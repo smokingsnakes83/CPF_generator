@@ -25,28 +25,20 @@ int main()
         for (int i = 1; i <= 9; ++i)
         {
             rand_number = rand() % 9 + 1;
-            // std::cout << rand_number << "*" << i;
             m = rand_number * i;
-            // std::cout << "=" << m << '\n';
             first_soma += m;
+
             numbers.push_back(rand_number);
         }
 
         std::cout << '\n';
 
-        // std::cout << first_soma << '\n';
         first_verifier = first_soma % 11;
 
         if (first_verifier >= 10)
         {
             first_verifier = 0;
-            // std::cout << first_verifier<< '\n';
         }
-        /*else
-        {
-            std::cout << first_verifier<< '\n';
-        }*/
-        // std::cout << '\n';
 
         numbers.push_back(first_verifier);
 
@@ -56,25 +48,16 @@ int main()
         {
             m2 = numbers[j] * factors_2[j];
             second_soma += m2;
-            // std::cout << m2 << '\n';
         }
-        // std::cout << '\n';
-        // std::cout << second_soma << '\n';
+
         second_verifier = second_soma % 11;
         if (second_verifier == 10)
         {
             second_verifier = 0;
-            // std::cout << second_verifier << '\n';
         }
-        /*else
-        {
-            std::cout << second_verifier << '\n';
-        }*/
 
         numbers.push_back(second_verifier);
 
-        // std::cout << '\n';
-        int cpf;
         std::cout << "CPF Gerado: ";
         for (int number : numbers)
         {
