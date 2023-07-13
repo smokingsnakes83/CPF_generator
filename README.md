@@ -14,7 +14,7 @@ Este é um programa simples em C++ para gerar CPFs aleatórios. Ele foi criado p
 
 ## Como compilar e executar
 
-Certifique-se de ter um compilador C++ instalado em seu sistema. O programa foi desenvolvido e testado utilizando o compilador g++.
+Certifique-se de ter um compilador C++ instalado em seu sistema. O programa foi desenvolvido e testado utilizando o compilador [g++](https://gcc.gnu.org/ "GCC, the GNU Compiler Collection").
 
 1. Baixe o arquivo do programa "gerador_cpf.cpp" para o seu computador.
 2. Abra o terminal ou prompt de comando e navegue até o diretório onde o arquivo "gerador_cpf.cpp" está localizado.
